@@ -1,0 +1,25 @@
+doctype html
+html(lang="ja", itemscope, itemtype="http://schema.org/WebPage")
+	head
+		block param
+		meta(charset="UTF-8")
+		title #{title}
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		meta(name="format-detection", content="telephone=no")
+		block viewport
+			meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(name="keywords", content=keywords)
+		meta(name="description", content=description)
+		include _og
+		block commonCSS
+			link(rel="stylesheet", href="/common/css/base.css")
+			link(rel="stylesheet", href="/common/css/common.css")
+			link(rel="stylesheet", href="/common/css/component.css")
+		block stylesheet
+	body#body
+		include ../_include/_header
+		block contents
+		include ../_include/_footer
+		script(src="/common/js/common.js")
+		block script
+

@@ -1,0 +1,104 @@
+
+// wai-aria settings
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+// mediaQuery Settings
+// https://github.com/paranoida/sass-mediaqueries
+
+@mixin mq($args...) {
+  $media-type: "only screen";
+  $media-type-key: "media-type";
+  $args: keywords($args);
+  $expr: "";
+
+  @if map-has-key($args, $media-type-key) {
+    $media-type: map-get($args, $media-type-key);
+    $args: map-remove($args, $media-type-key);
+  }
+
+  @each $key, $value in $args {
+    @if $value {
+      $expr: "#{$expr} and (#{$key}: #{$value})";
+    }
+  }
+
+  @media #{$media-type} #{$expr} {
+    @content;
+  }
+}
+
+@mixin max($max) {
+  @include mq($max-width: $max) {
+    @content;
+  }
+}
+
+@mixin min($min) {
+  @include mq($min-width: $min) {
+    @content;
+  }
+}
+
+// browser Hack
+@mixin browser_hack($browser: null) {
+  // IE11
+  @if $browser == "ie11" {
+    @at-root _:-ms-fullscreen,
+      :root & {
+      @content;
+    }
+  }
+  // @else if $browser == "" {
+  // }
+}
+
+// placeholder color
+@mixin placeholderColor($color) {
+  &:placeholder-shown {
+    color: $color;
+  }
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+  &:-moz-placeholder {
+    color: $color;
+    opacity: 1;
+  }
+  &::-moz-placeholder {
+    color: $color;
+    opacity: 1;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+}
+
+// 12grid cols Settings
+@mixin col() {
+  @for $i from 1 through 12 {
+    .col-#{$i * 1} {
+      width: calc((100% / 12) * #{$i * 1});
+    }
+    @include min(768px) {
+      .pc-col-#{$i * 1} {
+        width: calc((100% / 12) * #{$i * 1});
+      }
+    }
+    @include max(767px) {
+      .sp-col-#{$i * 1} {
+        width: calc((100% / 12) * #{$i * 1});
+      }
+    }
+  }
+}

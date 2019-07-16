@@ -87,7 +87,6 @@ gulp.task('sass', () => {
   const processors = [
     require('postcss-import'),
     require('postcss-flexbugs-fixes'),
-    require('postcss-font-magician'),
     require('autoprefixer')({
       grid: true,
     }),

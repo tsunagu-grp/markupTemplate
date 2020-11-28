@@ -61,7 +61,7 @@
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "del": "^4.0.0",
-    "destyle.css": "^1.0.5",
+    "destyle.css": "^2.0.0",
     "eslint": "^5.13.0",
     "gulp": "^4.0.0",
     "gulp-changed": "^4.0.0",

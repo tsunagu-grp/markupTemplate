@@ -78,7 +78,7 @@
     "gulp-pug": "^4.0.1",
     "gulp-reporter": "^2.10.0",
     "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.4",
+    "gulp-sourcemaps": "^3.0.0",
     "gulp-stylelint": "^9.0.0",
     "gulp-webserver": "^0.9.1",
     "gutil": "^1.6.4",

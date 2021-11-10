@@ -60,93 +60,43 @@
     "autoprefixer": "^10.0.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
-<<<<<<< HEAD
-<<<<<<< HEAD
     "del": "^6.0.0",
-    "destyle.css": "^1.0.5",
-<<<<<<< HEAD
-=======
-    "del": "^4.0.0",
     "destyle.css": "^3.0.0",
->>>>>>> 89793691931734a7337424ea62fb91e6a764f769
-=======
-    "del": "^4.0.0",
-    "destyle.css": "^3.0.0",
->>>>>>> 4a96d1796c7ab6b25e899ef703d78de728db445f
-    "eslint": "^5.13.0",
-=======
     "eslint": "^8.0.0",
->>>>>>> 4925f8d85b9a22943df81b6786773faf6a1194df
     "gulp": "^4.0.0",
     "gulp-changed": "^4.0.0",
     "gulp-convert": "^0.2.0",
     "gulp-csscomb": "^3.0.8",
     "gulp-cssnano": "^2.1.3",
-<<<<<<< HEAD
     "gulp-eslint": "^6.0.0",
     "gulp-if": "^3.0.0",
-    "gulp-imagemin": "^5.0.3",
     "gulp-load-plugins": "^2.0.0",
-=======
-    "gulp-eslint": "^5.0.0",
-    "gulp-if": "^2.0.2",
     "gulp-imagemin": "^8.0.0",
-    "gulp-load-plugins": "^1.5.0",
->>>>>>> f0faacb7aecda9368507416dc36ca132683eb78a
     "gulp-parcel": "^0.3.5",
     "gulp-plumber": "^1.2.1",
-<<<<<<< HEAD
     "gulp-postcss": "^9.0.0",
-    "gulp-pug": "^4.0.1",
-=======
-    "gulp-postcss": "^8.0.0",
     "gulp-pug": "^5.0.0",
->>>>>>> 16e5a77c4c42c86bdd96f9ed6511c00386007438
     "gulp-reporter": "^2.10.0",
     "gulp-sass": "^4.0.2",
-<<<<<<< HEAD
-    "gulp-sourcemaps": "^2.6.4",
     "gulp-stylelint": "^13.0.0",
-=======
     "gulp-sourcemaps": "^3.0.0",
-    "gulp-stylelint": "^9.0.0",
->>>>>>> 02163b6e3eb9e382f248e3de4a685582ceeee3eb
     "gulp-webserver": "^0.9.1",
     "gutil": "^1.6.4",
-<<<<<<< HEAD
     "imagemin-mozjpeg": "^9.0.0",
-    "imagemin-pngquant": "^7.0.0",
-=======
-    "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^9.0.0",
->>>>>>> 1897984129657c9bcb897e589ed8bded870f0c97
     "jquery": "^3.3.1",
     "lint-staged": "^11.0.0",
     "minimist": "^1.2.0",
     "path": "^0.12.7",
-<<<<<<< HEAD
     "postcss": "^8.0.0",
-    "postcss-flexbugs-fixes": "^4.1.0",
-=======
-    "postcss": "^7.0.14",
     "postcss-flexbugs-fixes": "^5.0.0",
->>>>>>> 9ddd4cefa11a02b7a6b55e37a0114df52d89cf93
     "postcss-import": "^12.0.1",
     "postcss-reporter": "^6.0.1",
     "postcss-scss": "^2.0.0",
-<<<<<<< HEAD
-    "prettier": "1.19.1",
-=======
     "prettier": "2.4.1",
->>>>>>> 7daa0602d2130e8e4f1cee9710d3579137c6d63c
     "prettier-eslint": "^8.8.2",
-<<<<<<< HEAD
-    "prettier-eslint-cli": "^5.0.0",
-    "stylelint": "^10.0.0",
-=======
     "prettier-eslint-cli": "^4.7.1",
     "stylelint": "^13.0.0",
->>>>>>> 66373fdd000b7fddc8d3048df6dcfd41857d99ee
     "stylelint-scss": "^3.5.3"
   }
 }

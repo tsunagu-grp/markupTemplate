@@ -57,7 +57,7 @@
     "@babel/register": "^7.0.0",
     "@geekcojp/eslint-config": "^0.1.2",
     "@geekcojp/stylelint-config": "^0.2.3",
-    "autoprefixer": "^9.4.7",
+    "autoprefixer": "^10.0.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "del": "^4.0.0",

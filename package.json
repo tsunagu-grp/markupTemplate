@@ -117,7 +117,11 @@
     "postcss-import": "^12.0.1",
     "postcss-reporter": "^6.0.1",
     "postcss-scss": "^2.0.0",
+<<<<<<< HEAD
     "prettier": "1.19.1",
+=======
+    "prettier": "2.4.1",
+>>>>>>> 7daa0602d2130e8e4f1cee9710d3579137c6d63c
     "prettier-eslint": "^8.8.2",
 <<<<<<< HEAD
     "prettier-eslint-cli": "^5.0.0",
